@@ -15,7 +15,7 @@ public class WaypointWalker : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-	
+		spriteController = GetComponent<SpriteController>();
 	}
 	
 	// Update is called once per frame
